@@ -32,7 +32,7 @@ public class Car {
         this.color = color;
     }
 
-    public String toString() {
+    public String view() {
         return "year = " + year + ", " + "speed = " + speed + ", " + "weight = " + weight + ", " + "color = " + color;
     }
 }

@@ -9,10 +9,10 @@ public class Main {
         Car car4 = new Car(2010, 240, 2000);
         Car car5 = new Car(2010, 240, 2000, "white");
 
-        System.out.println("Машина 1: " + car1.toString());
-        System.out.println("Машина 2: " + car2.toString());
-        System.out.println("Машина 3: " + car3.toString());
-        System.out.println("Машина 4: " + car4.toString());
-        System.out.println("Машина 5: " + car5.toString());
+        System.out.println("Машина 1: " + car1.view());
+        System.out.println("Машина 2: " + car2.view());
+        System.out.println("Машина 3: " + car3.view());
+        System.out.println("Машина 4: " + car4.view());
+        System.out.println("Машина 5: " + car5.view());
     }
 }
